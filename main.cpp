@@ -3,9 +3,9 @@
 #include <fstream>
 #include <string>
 
-#define FILE_OLD "input.txt"
-#define FILE "in.txt"
-#define FILE_RES "out.txt"
+#define FILE_OLD	"input.txt"
+#define FILE		"in.txt"
+#define FILE_RES	"out.txt"
 
 using namespace std;
 
@@ -19,7 +19,7 @@ int main(void)
 	}
 	in_first.close();
 
-	
+
 	int rename_res = rename(FILE_OLD, FILE);
 	if (rename_res != 0) {
 		cout << "Rename error" << endl;

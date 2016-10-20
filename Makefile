@@ -9,3 +9,9 @@ start: main.o
 main.o: main.cpp
 	$(COMPILLER) -c $(FLAGS) main.cpp
 
+clear:
+	-rm -f *.o *.gch da_sort
+
+freturn:
+	mv in.txt input.txt
+	rm out.txt
