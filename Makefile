@@ -15,3 +15,4 @@ clear:
 freturn:
 	mv in.txt input.txt
 	rm out.txt
+	rm -rf tmp/

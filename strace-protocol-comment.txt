@@ -1,0 +1,15 @@
+1
+execve("/usr/bin/pluma", ["pluma"], [/* 33 vars */]) = 0
+Создание процесса "Pluma"
+
+1705
+open("/usr/share/applications/pluma.desktop", O_RDONLY) = 7
+Чтение файла хранения текстовых настроек
+
+20382
+lstat("/home/paswd/github/oop-lab2/Makefile", {st_mode=S_IFREG|0644, st_size=485, ...}) = 0
+Получение информации о редактируемом файле, получение содержимого файла
+
+20761
+writev(3, [{"\22\0\17\0\240\0\200\4[\1\0\0L\1\0\0\10\4\6\0$\0\0\0Makefile"..., 284}, {NULL, 0}, {"", 0}], 3) = 284
+Запись в файл
